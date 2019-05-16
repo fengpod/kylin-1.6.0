@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Title: Apache Kylin - Assembly
+Implementation-Version: 1.6.0
+Built-By: fengpod
+Specification-Vendor: Apache Software Foundation
+Specification-Title: Apache Kylin - Assembly
+Implementation-Vendor-Id: org.apache.kylin
+Build-Jdk: 1.8.0_45
+Specification-Version: 1.6
+Implementation-URL: http://kylin.apache.org/kylin-assembly
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Apache Software Foundation
+

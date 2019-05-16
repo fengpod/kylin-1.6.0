@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="kylin-server-1.6.0">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="kylin-server-base-1.6.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/kylin-server-base/kylin-server-base">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="kylin-query-1.6.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/kylin-query/kylin-query">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="atopcalcite-1.6.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/atopcalcite/atopcalcite">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="kylin-core-storage-1.6.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/kylin-core-storage/kylin-core-storage">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="kylin-storage-hbase-1.6.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/kylin-storage-hbase/kylin-storage-hbase">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="kylin-source-hive-1.6.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/kylin-source-hive/kylin-source-hive">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="kylin-source-kafka-1.6.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/kylin-source-kafka/kylin-source-kafka">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="kylin-core-common-1.6.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/kylin-core-common/kylin-core-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="kylin-engine-mr-1.6.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/kylin-engine-mr/kylin-engine-mr">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="kylin-core-cube-1.6.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/kylin-core-cube/kylin-core-cube">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="kylin-core-metadata-1.6.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/kylin-core-metadata/kylin-core-metadata">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="kylin-core-dictionary-1.6.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/kylin-core-dictionary/kylin-core-dictionary">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="kylin-core-job-1.6.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/kylin-core-job/kylin-core-job">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="kylin-server"/>
+        <property name="java-output-path" value="/kylin-server/target/classes"/>
+        <property name="component.exclusion.patterns" value="WEB-INF/lib/servlet-api-*.jar,WEB-INF/lib/zookeeper-*.jar"/>
+    </wb-module>
+</project-modules>
